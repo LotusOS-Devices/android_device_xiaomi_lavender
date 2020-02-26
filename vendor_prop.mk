@@ -1,3 +1,7 @@
+#Maintainer
+PRODUCT_PROPERTY-OVERRIDES += \
+ro.lotus.maintainer=Jimgsey
+
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     af.fast_track_multiplier=1 \

@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Inherit some common AEX stuff.
 TARGET_BOOT_ANIMATION_RES := 2280
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/lotus/config/common_full_phone.mk)
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 
@@ -22,7 +22,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_lavender
+PRODUCT_NAME := lotus_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
