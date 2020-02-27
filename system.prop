@@ -7,6 +7,10 @@ dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 ro.colorpick_adjust=true
 
+#Maintainer
+PRODUCT_PROPERTY-OVERRIDES += \
+ro.lotus.maintainer=Jimgsey
+
 # System property for cabl
 ro.qualcomm.cabl=2
 ro.vendor.display.cabl=2
