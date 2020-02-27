@@ -1,6 +1,9 @@
 #
 # system.prop for sdm660
 #
+#Maintainer
+PRODUCT_PROPERTY-OVERRIDES += \
+ro.lotus.maintainer=Jimgsey
 
 #rild.libpath=/system/lib/libreference-ril.so
 rild.libpath=/system/vendor/lib64/libril-qc-qmi-1.so
